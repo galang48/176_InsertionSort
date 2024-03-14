@@ -72,6 +72,8 @@ void display() {                                            // Procedure Display
 }
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();                    // memanggil input
+    insertionsort();            // memanggil insertionsort
+    display();                  // memanggil display
 }
 
